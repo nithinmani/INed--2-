@@ -1,0 +1,199 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+  
+  a {
+    color: #009cea;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #1eb4ff;
+    text-decoration: none;
+  }
+  /*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    background-image: url("../img/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top;
+    margin-top: 70px;
+    padding: 60px 0;
+  }
+  
+  #hero h1 {
+    margin: 0 0 20px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #364146;
+  }
+  
+  #hero h2 {
+    color: #576971;
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  
+  #hero .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 3px;
+    transition: 0.5s;
+    color: #fff;
+    background: #009cea;
+  }
+  
+  #hero .btn-get-started:hover {
+    background: #008bd1;
+  }
+  
+  #hero .hero-img {
+    text-align: center;
+  }
+  
+  #hero .hero-img img {
+    width: 70%;
+  }
+  
+  @media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    #hero h1 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  
+    #hero h2 {
+      font-size: 20px;
+    }
+  }
+  /*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-bg {
+    background-color: #f7f8f9;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    font-family: "Poppins", sans-serif;
+    color: #627680;
+  }
+  
+  .section-title p {
+    margin-bottom: 0;
+  }
+  
+  .d-flex form-control me-2{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    position: relative;
+  }
+  .d-flex btn btn-outline-success{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 3px;
+    transition: 0.5s;
+    color: #fff;
+    background: #009cea;
+  }
+
+  .top-selling {
+    font-size: 14px;
+  }
+  
+  .top-selling .table thead {
+    background: #f6f6fe;
+  }
+  
+  .top-selling .table thead th {
+    border: 0;
+  }
+  
+  .top-selling .table tbody td {
+    vertical-align: middle;
+  }
+  
+  .top-selling img {
+    border-radius: 5px;
+    max-width: 60px;
+  }
+
+  /* Card */
+.card {
+    margin-bottom: 30px;
+    border-color:lightblue;
+    border-radius: 30px;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+  }
+  
+  .card-header,
+  .card-footer {
+    border-color: #ebeef4;
+    background-color: #fff;
+    color: #798eb3;
+    padding: 15px;
+  }
+  
+  .card-title {
+    padding: 20px 0 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #012970;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .card-title span {
+    color: #899bbd;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .card-body {
+    padding: 0 20px 20px 20px;
+  }
+  
+  .card-img-overlay {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
